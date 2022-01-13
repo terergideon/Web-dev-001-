@@ -1,0 +1,40 @@
+/*--------------
+name:main.css
+version 1.0 
+-------
+
+Table of contents(code division)
+
+01. Navbar
+02. Slider
+03. About Us
+
+*/
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 5000px;
+}
+
+
+/*----------------
+[0.1 The Navbar section]
+-------------------*/
+
+.navbar {
+    background: grey !important;
+    /*allows the navbar to be seen even if scrolling is done*/
+    padding: 25px 0;
+    display: flex;
+}
+
+.navbar.nav-item {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
+    /*margin o but position 20px.*/
+}
+
+.navbar.nav-item.navlink {
+    color: azure;
+}
